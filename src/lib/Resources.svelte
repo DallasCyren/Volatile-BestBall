@@ -4,6 +4,34 @@ import { dynasty } from './utils/helper';
 
     const today = new Date();
     const resources = [
+         {
+            name: "Over the Cap",
+            url: "https://overthecap.com/",
+            icon: "insights",
+            premium: true,
+            separator: true,
+        },
+         {
+            name: "Pro Football Reference",
+            url: "https://www.pro-football-reference.com/",
+            icon: "insights",
+            premium: true,
+            separator: true,
+        },
+        {
+            name: "Pro Football Rumors",
+            url: "https://www.profootballrumors.com/",
+            icon: "insights",
+            premium: true,
+            separator: true,
+        },
+        {
+            name: "The IDP Center",
+            url: "https://www.theidpcenter.com/",
+            icon: "insights",
+            premium: true,
+            separator: true,
+        },
         {
             name: "FTN Fantasy",
             url: "https://www.ftnfantasy.com/nfl",
@@ -27,26 +55,10 @@ import { dynasty } from './utils/helper';
             dynastyOnly: true,
         },
         {
-            name: "DynastyProcess Trade Calculator",
-            url: "https://apps.dynastyprocess.com/calculator/",
-            icon: "calculate",
-            premium: false,
-            separator: true,
-            dynastyOnly: true,
-        },
-        {
             name: "Dynasty League Football",
             url: "https://dynastyleaguefootball.com/",
             icon: "insights",
             premium: true,
-            separator: true,
-            dynastyOnly: true,
-        },
-        {
-            name: "Reddit Dynasty Fantasy Football",
-            url: "https://www.reddit.com/r/DynastyFF/",
-            icon: "article",
-            premium: false,
             separator: true,
             dynastyOnly: true,
         },
@@ -57,14 +69,6 @@ import { dynasty } from './utils/helper';
             premium: false,
             separator: true,
             redraftOnly: true,
-        },
-        {
-            name: "Dynasty 101 Trade Calculator",
-            url: "https://dynasty101.com/trade-calculator/",
-            icon: "calculate",
-            premium: false,
-            separator: true,
-            dynastyOnly: true,
         },
         {
             name: "Dynasty Nerds GM",
